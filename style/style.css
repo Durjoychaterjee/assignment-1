@@ -317,6 +317,7 @@ a {
     text-align: center;
     justify-content: space-around;
     background: #d9c8c83b;
+    border-radius: 10px;
 }
 .made{
     font-size: 14px;
