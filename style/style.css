@@ -117,12 +117,11 @@
 
 
 
-.section-card-2{
+.section-card-22{
     margin-top: 52px;
     border-radius: 10px;
     padding: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background: white;
 }
@@ -148,7 +147,6 @@
 .image-2{
     background: white;
 }
-
 .section-card-3{
     margin-top: 52px;
     border-radius: 10px;
@@ -180,6 +178,8 @@
 .image-3{
     background: white;
 }
+
+
 
 
 
@@ -244,6 +244,7 @@ a {
 }
 
 /* terget */
+
 .skill-description{
     font-size: 14px;
     font-weight: 400;
@@ -251,19 +252,33 @@ a {
 a {
     color: black;
 }
-.section-card-1{
+.section-card-2{
     border: 1px solid red;
     padding: 20px;
+    display: flex;
+ 
 }
 .skills-container-2{
+    margin-top: 52px;
+    border-radius: 10px;
+    padding: 40px;
     display: flex;
-    padding: 20px;
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
 }
 .lorem-3{
     width: 820px;
+}
+.text1{
+   width: 300px;
+   padding: 20px;
+   border-radius: 10px;
+}
+.btn-primary-2{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .header-bg-2{
@@ -277,6 +292,7 @@ a {
 .banner-2{
     text-align: center;
     padding: 50px;
+    
 }
 .support-title{
     color: white;
@@ -286,20 +302,18 @@ a {
     font-size: 14px;
     font-weight: 300;
 }
-.btn-primary-2{
-    width: 150px;
-    padding: 10px;
-    border-radius: 5px;
-}
+
 .footer-section{
     margin-top: 20px;
     padding: 20px;
-    max-width: 1140px;
-    margin: auto;
     display: flex;
     text-align: center;
-    justify-content: space-between;
-    border: 1px solid red;
+    justify-content: space-around;
+    background: #d9c8c83b;
+}
+.made{
+    font-size: 14px;
+    font-weight: 500px;
 }
 
 
