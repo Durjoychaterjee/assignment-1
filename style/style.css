@@ -60,8 +60,6 @@
 .section-about {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02); 
-    max-width: 1140px;
-    width: 100%;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -86,13 +84,16 @@
 .section-about{
     padding: 80px;
 }
-.section-card{
+.section-card-1{
     border-radius: 10px;
     padding: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: white;
+}
+.about-1{
+    padding: 5px;
 }
 .heading-1{
     font-size:14px;
@@ -102,19 +103,85 @@
 .lorem-1{
     font-size: 14px;
     font-weight: 300;
+    width: 400px;
+    line-height: 20px;
 }
 .btn-1{
-    padding: 20px;
-    width: 200px;
-    font-size: 24px;
+    padding: 10px;
+    width: 150px;
+    font-size: 14px;
 }
 .image-1{
     background: white;
 }
 
 
- .my-inspiration {  
- }
+
+.section-card-2{
+    margin-top: 52px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+.about-2{
+    padding: 5px;
+}
+.heading-2{
+    font-size:14px;
+    width: 200px;
+    line-height: 20px;
+}
+.lorem-2{
+    font-size: 14px;
+    font-weight: 300;
+    width: 400px;
+    line-height: 20px;
+}
+.btn-2{
+    padding: 10px;
+    width: 150px;
+    font-size: 14px;
+}
+.image-2{
+    background: white;
+}
+
+.section-card-3{
+    margin-top: 52px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+.about-3{
+    padding: 5px;
+}
+.heading-3{
+    font-size:14px;
+    width: 200px;
+    line-height: 20px;
+}
+.lorem-3{
+    font-size: 14px;
+    font-weight: 300;
+    width: 400px;
+    line-height: 20px;
+}
+.btn-3{
+    padding: 10px;
+    width: 150px;
+    font-size: 14px;
+}
+.image-3{
+    background: white;
+}
+
+
 
 .section-inspiration {
     padding: 20px;
@@ -144,9 +211,7 @@
     line-height: 30px;
     padding-bottom: 20px;
 }
-.skill-tittle{
-
-}
+/* skills */
 .skill-description{
     font-size: 14px;
     font-weight: 400;
@@ -177,3 +242,64 @@ a {
     border-radius: 10px;
     padding: 40px;
 }
+
+/* terget */
+.skill-description{
+    font-size: 14px;
+    font-weight: 400;
+}
+a {
+    color: black;
+}
+.section-card-1{
+    border: 1px solid red;
+    padding: 20px;
+}
+.skills-container-2{
+    display: flex;
+    padding: 20px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.lorem-3{
+    width: 820px;
+}
+
+.header-bg-2{
+        background-image: url("../B10A1-Challenge-Begins/assets/handshake.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 30px;
+
+}
+.banner-2{
+    text-align: center;
+    padding: 50px;
+}
+.support-title{
+    color: white;
+}
+.support-description-1{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.btn-primary-2{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer-section{
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+
